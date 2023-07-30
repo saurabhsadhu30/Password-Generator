@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(23deg, blue, red);; */
+    background-color: black;
+    color: #fff;
+
+
+}
+
+.container {
+    display:flex ;
+    flex-direction: column;
+
+
+}
+
+.container h1 {
+    margin-bottom: 10px;
+    font-size: 1.187rem;
+    text-align: center;
+    font-family: sans-serif, monospace;
+    font-weight: 200;
+}
+/* .Password{
+    display:relative;
+} */
+#copyicon{
+
+    cursor:pointer;
+    display:absolute;
+    right:20px;
+  
+   
+}
+#copyicon:active{
+    scale:0.90;
+}
+.Password .passwordbox {
+    display:relative;
+    border-radius:8px;
+    box-sizing:border-box;
+    background-color: #24232B;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+input[type=range] {
+    width: 100%;
+    padding: 10px;
+}
+
+.secondcontainer {
+    margin: 5px 0;
+    padding: 15px;
+    background-color: #24232B;
+    width: 300px;
+
+}
+
+.row {
+    display: flex;
+    margin-block: 8px;
+    font-size: 15px;
+}
+
+.row p {
+    flex-basis: 100%;
+    font-size: 15px;
+}
+
+.row span {
+    color: #A4FFAF;
+}
+
+/* .row input[type='checkbox']{
+    height: 15px;
+    width: 15px;
+   accent-color: #24232B;
+} */
+.checkcl {
+    height: 15px;
+    width: 15px;
+    accent-color: #24232B;
+
+}
+
+.genbtn {
+
+    background-color: #A4FFAF;
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: robotto;
+    margin-block: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.genbtn:hover {
+    background-color: #48b355;
+}
+  

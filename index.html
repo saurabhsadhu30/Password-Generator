@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Password Generator</h1>
+        <div class="Password">
+            <input type="text" placeholder="P4$5W0rD!" class="passwordbox" id="passbox" disabled>
+            <span class="material-symbols-outlined" id="copyicon">
+                content_copy
+                </span>
+        </div>
+
+        <div class="secondcontainer">
+            <div class="row">
+                <p>Character Length</p>
+                <span id="slidervalue">4</span>
+            </div>
+            <input type="range" min="1" max="30" value="4" id="inputslider">
+            <div class="row">
+                <input type='checkbox' name="Uppercase" id="Uppercase" class="checkcl">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Uppercase">Include Uppercase Letters</label>
+            </div>
+            <div class="row">
+                <input type='checkbox' name="lowercase" id="Lowercase" class="checkcl">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Lowercase">Include Lowercase Letters</label>
+            </div>
+            <div class="row">
+                <input type='checkbox' name="Numbers" id="Numbers" class="checkcl">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Numbers">Include Numbers</label>
+            </div>
+            <div class="row">
+                <input type='checkbox' name="Symbol" id="Symbols" class="checkcl">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Symbol">Include Symbols</label>
+            </div>
+            
+
+
+            <button type="button" class="genbtn" id="genbtn">GENERATE &nbsp;&nbsp; &#8594; </button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
